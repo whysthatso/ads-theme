@@ -30,8 +30,12 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#444;
+  font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#444;
+  background-image:url('../img/bg.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 /* clear */
 .clear:before,

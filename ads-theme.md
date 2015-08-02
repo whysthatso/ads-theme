@@ -1,24 +1,29 @@
+Menu
+- autogenerate from h1 content
+
 1. art der stadt
 1.1. verein
-- page
+- x page
 1.2. freunde und unterstützer
-- page
+- x page
+- needs page template with loop for referenzen category below content
 1.3. bildergalerien
-- gallery overview
+- x page
+- better: gallery overview over certain gallery category
 
 2. projekte
 2.1. wir machen theater
-- page
+- x page
 2.2. schluprojekte
-- category page
+- category page (schulprojekt)
 2.3. kinder & jugend
 - category page
 2.4. zirkus kanariah
-- page
+- x page
 2.5. balustrada
-- page
+- x page
 2.6. kurse & workshops
-- page / schedule
+- x page / schedule
 2.7. fsj / bfd tagebuch
 - category page
 

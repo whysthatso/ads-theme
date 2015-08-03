@@ -29,12 +29,12 @@
       <header class="header clear" role="banner">
 
         <!-- logo -->
-        <div class="logo">			
+        <div class="logo">
           <a href="<?php echo home_url(); ?>">
             <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-            <?php 
+            <?php
               if ( is_front_page() || is_home() || is_page( array( 27, 43 ) ) || in_category( array (73, 22 ) ) || cat_is_ancestor_of( array( 73, 22 ), $cat ) )
-                { $color = 'rot'; } 
+                { $color = 'rot'; }
               elseif ( is_page( array( 58, 64, 134, 66 ) )  ||  in_category( array( 61, 74, 75 ) ) )
                 { $color = 'blau'; }
               elseif ( is_page( array( 146 ) ) || in_category( 72 ) )
@@ -47,7 +47,7 @@
                 { $color = 'gelb'; }
               elseif ( is_page( array( 2086 ) ) )
                 { $color = 'tuerkis'; }
-              else 
+              else
                 { $color = 'rot'; }
             ?>
 
@@ -63,11 +63,17 @@
         </div>
         <!-- /slogan -->
 
-		<!-- nav -->
+		    <!-- nav -->
 				<nav class="nav" role="navigation">
 					<?php html5blank_nav(); ?>
 				</nav>
 				<!-- /nav -->
+
+        <!-- breadcrumbs -->
+        <div class="breadcrumbs">
+          <?php get_breadcrumb(); ?>
+        </div>
+        <!-- /breadcrumbs -->
 
 			</header>
 			<!-- /header -->

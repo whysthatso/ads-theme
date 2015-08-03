@@ -58,36 +58,17 @@ if (function_exists('add_theme_support'))
   load_theme_textdomain('html5blank', get_template_directory() . '/languages');
 }
 
+//add_action( 'after_setup_theme', 'bct_theme_setup' );
+
+//function bct_theme_setup() {
+//  add_theme_support( 'breadcrumb-trail' );
+//}
+
+
 /*------------------------------------*\
 	Functions
 \*------------------------------------*/
 
-function get_breadcrumb() {
-
-	global $post;
-
-	$trail = '';
-	$page_title = get_the_title($post-&gt;ID);
-
-	if($post-&gt;post_parent) {
-		$parent_id = $post-&gt;post_parent;
-
-		while ($parent_id) {
-			$page = get_page($parent_id);
-			$breadcrumbs[] = '<a href="' . get_permalink($page-&gt;ID) . '">' . get_the_title($page-&gt;ID) . '</a> » ';
-			$parent_id = $page-&gt;post_parent;
-		}
-
-		$breadcrumbs = array_reverse($breadcrumbs);
-		foreach($breadcrumbs as $crumb) $trail .= $crumb;
-	}
-
-	$trail .= $page_title;
-	$trail .= '';
-
-	return $trail;
-
-}
 
 // HTML5 Blank navigation
 function html5blank_nav()

@@ -103,7 +103,7 @@ nav {
 .sidebar {
   width:  20%;
   border: 1px red solid;
-  float:  left; 
+  float:  left;
   background-color: white;
 }
 /* footer */
@@ -160,7 +160,7 @@ main {
 }
 @media only screen and (min-width:768px) {
 
-  .logo { 
+  .logo {
     width: 20%;
     float:left;
     padding-bottom: 10px;
@@ -173,11 +173,12 @@ main {
     width: 40%;
     color: white;
     font-size: 2em;
-    float: left; 
+    float: left;
     padding-left: 10px;
     padding-top: 2.5em;
     text-align: right;
   }
+  /* nach suckerfish-vorbild */
   nav {
     border: 1px blue solid;
     background-color: white;

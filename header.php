@@ -27,9 +27,9 @@
     <div class="wrapper">
       <!-- header -->
       <header class="header clear" role="banner">
+
         <!-- logo -->
-        <div class="logo">
-				
+        <div class="logo">			
           <a href="<?php echo home_url(); ?>">
             <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
             <?php 
@@ -53,10 +53,17 @@
 
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo/ads_logo_<?php echo $color ?>.png" alt="Logo" class="logo-img">
           </a>
-				</div>
-				<!-- /logo -->
+        </div>
+        <!-- /logo -->
 
-				<!-- nav -->
+        <!-- slogan -->
+        <div class="slogan">
+           wenn die sonne der kultur niedrig steht,<br />
+           werfen selbst zwerge lange schatten... (karl kraus)
+        </div>
+        <!-- /slogan -->
+
+		<!-- nav -->
 				<nav class="nav" role="navigation">
 					<?php html5blank_nav(); ?>
 				</nav>

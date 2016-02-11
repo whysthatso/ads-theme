@@ -1,3 +1,8 @@
+Scrollband
+- liste nacheinander einblenden
+- events eventuell von fb
+- event calendar
+
 Menu
 - autogenerate from h1 content
 

@@ -70,6 +70,14 @@ if (function_exists('add_theme_support'))
 \*------------------------------------*/
 
 
+add_filter( 'breadcrumb_trail_items', 'ads_breadcrumb_trail_items' );
+
+function ads_breadcrumb_trail_items( $items ) {
+  $items =  preg_replace( '/(<a.*?>)/i', '', $items );
+  return $items;
+}
+
+
 // HTML5 Blank navigation
 function html5blank_nav()
 {

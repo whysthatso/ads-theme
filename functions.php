@@ -33,10 +33,10 @@ if (function_exists('add_theme_support'))
   add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 
   // Add Support for Custom Backgrounds - Uncomment below if you're going to use
-  /*add_theme_support('custom-background', array(
+add_theme_support('custom-background', array(
 'default-color' => 'FFF',
 'default-image' => get_template_directory_uri() . '/img/bg.jpg'
-  ));*/
+  ));
 
   // Add Support for Custom Header - Uncomment below if you're going to use
   /*add_theme_support('custom-header', array(
@@ -68,6 +68,13 @@ if (function_exists('add_theme_support'))
 /*------------------------------------*\
 	Functions
 \*------------------------------------*/
+
+function neuigkeiten( $query ) {
+    if ( $query->is_home() && $query->is_main_query() ) {
+        $query->set( 'cat', '1' );
+    }
+}
+add_action( 'pre_get_posts', 'neuigkeiten' );
 
 
 add_filter( 'breadcrumb_trail_items', 'ads_breadcrumb_trail_items' );

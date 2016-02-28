@@ -69,41 +69,5 @@
         </nav>
         <!-- /nav -->
 
-        <!-- breadcrumbs -->
-        <div class="breadcrumbs">
-          <?php
-            $bc_args = array(
-              'container'       => 'div',
-              'before'          => 'Du bist hier: ',
-              'show_on_front'   => true,
-              'show_title'      => true,
-              'show_browse'     => false,
-              'echo'            => true,
-              'labels' => array(
-                'browse'              => esc_html__( 'Browse:',                               'breadcrumb-trail' ),
-                'aria_label'          => esc_attr_x( 'Breadcrumbs', 'breadcrumbs aria label', 'breadcrumb-trail' ),
-                'home'                => esc_html__( 'Home',                                  'breadcrumb-trail' ),
-                'error_404'           => esc_html__( '404 Not Found',                         'breadcrumb-trail' ),
-                'archives'            => esc_html__( 'Archives',                              'breadcrumb-trail' ),
-                // Translators: %s is the search query. The HTML entities are opening and closing curly quotes.
-                'search'              => esc_html__( 'Search results for &#8220;%s&#8221;',   'breadcrumb-trail' ),
-                // Translators: %s is the page number.
-                'paged'               => esc_html__( 'Page %s',                               'breadcrumb-trail' ),
-                // Translators: Minute archive title. %s is the minute time format.
-                'archive_minute'      => esc_html__( 'Minute %s',                             'breadcrumb-trail' ),
-                // Translators: Weekly archive title. %s is the week date format.
-                'archive_week'        => esc_html__( 'Week %s',                               'breadcrumb-trail' ),
-                // "%s" is replaced with the translated date/time format.
-                'archive_minute_hour' => '%s',
-                'archive_hour'        => '%s',
-                'archive_day'         => '%s',
-                'archive_month'       => '%s',
-                'archive_year'        => '%s',
-              )
-	    );
-          if ( function_exists( 'breadcrumb_trail' ) ) breadcrumb_trail($bc_args); ?>
-        </div>
-        <!-- /breadcrumbs -->
-
-			</header>
-			<!-- /header -->
+      </header>
+      <!-- /header -->

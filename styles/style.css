@@ -112,6 +112,10 @@ input:focus {
   padding-left: 20px;
 }
 
+#sidebar-search {
+  padding:20px;
+}
+
 .footer {
   width:  100%;
   clear:  both;

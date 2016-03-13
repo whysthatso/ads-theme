@@ -195,10 +195,6 @@ main {
 
 }
 @media only screen and (min-width:480px) {
-
-}
-@media only screen and (min-width:768px) {
-
   .logo {
     width: 20%;
     float:left;
@@ -325,16 +321,24 @@ main {
     list-style: none;
     padding-left:20px;
   }
+}
+@media only screen and (min-width:768px) {
+
+  .slogan {
+    width: 70%;
+    font-size: 1.5em;
+  }
+  nav li {
+    width: 8em;
+  }
 
 }
 @media only screen and (min-width:1024px) {
 
   .slogan {
-    width: 70%;
+    font-size: 2em;
   }
   nav li {
-    float: left;
-    width: 8em;
   }
 
 }
@@ -345,7 +349,6 @@ main {
   }
 
   nav li {
-    float: left;
     width: 9em;
   }
 
@@ -353,7 +356,6 @@ main {
 @media only screen and (min-width:1280px) {
 
   nav li {
-    float: left;
     width: 10em;
   }
 

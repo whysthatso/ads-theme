@@ -320,6 +320,8 @@ main {
   #eo_event_list_widget-2 {
     color:white;
     padding:20px;
+  }
+  #eo_event_list_widget-2 ul li {
     list-style: none;
   }
 }

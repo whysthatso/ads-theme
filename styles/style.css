@@ -96,7 +96,8 @@ input:focus {
 }
 
 /* nav */
-nav {
+.nav ul li a {
+  color: white;
 }
 
 /* sidebar */
@@ -105,6 +106,10 @@ nav {
   float:  left;
   background: #282828 none repeat scroll 0 0;
 }
+.sidebar div ul li a, .sidebar div ul li a:hover {
+  color:white;
+}
+
 /* footer */
 .footer {
   width:  100%;
@@ -218,7 +223,7 @@ main {
   }
 
   nav li ul.sub-menu {
-    background-color: black;
+    background-color: #282828;
     left: -999em;
     padding: 10px 10px 20px 20px;
     position: absolute;
@@ -234,6 +239,40 @@ main {
     float:left;
     padding-right: 20px;
     padding-bottom: 20px;
+  }
+
+  #menu-item-2015 a:hover  {
+    color: #e31e24;
+    cursor:default;
+  }
+  #menu-item-2015 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2016 a:hover {
+    color: #0071bc;
+    cursor:default;
+  }
+  #menu-item-2016 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2089 a:hover {
+    color: #f7931e;
+    cursor:default;
+  }
+  #menu-item-2089 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2078 a:hover {
+    color: #9e005d;
+  }
+  #menu-item-2077 a:hover {
+    color: #82cc00;
+  }
+  #menu-item-2088 a:hover {
+    color: #00a99d;
+  }
+  #menu-item-2076 a:hover {
+    color: #e31e24;
   }
 
   .post-title {

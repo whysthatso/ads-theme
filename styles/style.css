@@ -107,14 +107,15 @@ input:focus {
   color:white;
 }
 
-#menu-seitenleiste {
+#menu-seitenleiste ul {
   list-style: none;
   padding-left: 20px;
+  padding-bottom:20px;
 }
 
-#sidebar-search, #wpcom_social_media_icons_widget-2 ul li {
+#sidebar-search, #wpcom_social_media_icons_widget-2 ul {
   padding-left:20px;
-  padding-left:20px;
+  padding-bottom:20px;
 }
 
 .widget_image {

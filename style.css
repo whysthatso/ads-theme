@@ -202,7 +202,134 @@ main {
 
 }
 @media only screen and (min-width:1024px) {
+  .logo {
+    width: 20%;
+    float:left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .logo-img {
+    width: 100%;
+  }
+  .slogan {
+      color: white;
+      float: left;
+      font-size: 2em;
+      font-style: italic;
+      font-weight: 100;
+      padding-left: 90px;
+      padding-top: 3em;
+      text-align: left;
+      width: 52%;
+  }
+  /* nach suckerfish-vorbild */
+  nav {
+    background: #282828 none repeat scroll 0 0;
+    height: 2.5em;
+    clear: left;
+    font-size: 1.5em;
+    text-align: center;
+    color: white !important;
+  }
 
+  nav, nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-top: 4px;
+  }
+
+  nav a {
+    display: block;
+    width: 10em;
+  }
+
+  nav li {
+    float: left;
+    width: 9em;
+  }
+
+  nav li ul.sub-menu {
+    background-color: #282828;
+    left: -999em;
+    padding: 10px 10px 20px 20px;
+    position: absolute;
+    text-align: left;
+    width: 12em;
+  }
+
+  nav li:hover ul {
+    left: auto;
+  }
+
+  .post-thumbnail {
+    float:left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  #menu-item-2015 a:hover  {
+    color: #e31e24;
+    cursor:default;
+  }
+  #menu-item-2015 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2016 a:hover {
+    color: #0071bc;
+    cursor:default;
+  }
+  #menu-item-2016 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2089 a:hover {
+    color: #f7931e;
+    cursor:default;
+  }
+  #menu-item-2089 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2078 a:hover {
+    color: #9e005d;
+  }
+  #menu-item-2077 a:hover {
+    color: #82cc00;
+  }
+  #menu-item-2088 a:hover {
+    color: #00a99d;
+  }
+  #menu-item-2076 a:hover {
+    color: #e31e24;
+  }
+
+  .post-title {
+
+  }
+
+  .post-excerpt {
+
+  }
+
+
+  #paten {
+    padding: 20px;
+    color: white;
+  }
+
+  #copyright {
+    padding: 20px;
+    color: white;
+  }
+  #eo_event_list_widget-2 {
+    color:white;
+    padding:20px;
+  }
+  #eo_event_list_widget-2 ul li {
+    list-style: none;
+    padding-left:20px;
+  }
+
+}
 }
 @media only screen and (min-width:1140px) {
 
@@ -251,7 +378,7 @@ main {
 
   nav li {
     float: left;
-    width: 10em;
+    width: 9em;
   }
 
   nav li ul.sub-menu {
@@ -333,136 +460,15 @@ main {
     list-style: none;
     padding-left:20px;
   }
-  
+
 }
 @media only screen and (min-width:1280px) {
 
-  .logo {
-    width: 20%;
-    float:left;
-    padding-bottom: 10px;
-    padding-left: 10px;
-  }
-  .logo-img {
-    width: 100%;
-  }
-  .slogan {
-      color: white;
-      float: left;
-      font-size: 2em;
-      font-style: italic;
-      font-weight: 100;
-      padding-left: 90px;
-      padding-top: 3em;
-      text-align: left;
-      width: 52%;
-  }
-  /* nach suckerfish-vorbild */
-  nav {
-    background: #282828 none repeat scroll 0 0;
-    height: 2.5em;
-    clear: left;
-    font-size: 1.5em;
-    text-align: center;
-    color: white !important;
-  }
-
-  nav, nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    padding-top: 4px;
-  }
-
-  nav a {
-    display: block;
-    width: 10em;
-  }
-
   nav li {
     float: left;
-    width: 10em;
+    width: 9em;
   }
 
-  nav li ul.sub-menu {
-    background-color: #282828;
-    left: -999em;
-    padding: 10px 10px 20px 20px;
-    position: absolute;
-    text-align: left;
-    width: 12em;
-  }
-
-  nav li:hover ul {
-    left: auto;
-  }
-
-  .post-thumbnail {
-    float:left;
-    padding-right: 20px;
-    padding-bottom: 20px;
-  }
-
-  #menu-item-2015 a:hover  {
-    color: #e31e24;
-    cursor:default;
-  }
-  #menu-item-2015 ul li a:hover {
-    cursor:pointer;
-  }
-  #menu-item-2016 a:hover {
-    color: #0071bc;
-    cursor:default;
-  }
-  #menu-item-2016 ul li a:hover {
-    cursor:pointer;
-  }
-  #menu-item-2089 a:hover {
-    color: #f7931e;
-    cursor:default;
-  }
-  #menu-item-2089 ul li a:hover {
-    cursor:pointer;
-  }
-  #menu-item-2078 a:hover {
-    color: #9e005d;
-  }
-  #menu-item-2077 a:hover {
-    color: #82cc00;
-  }
-  #menu-item-2088 a:hover {
-    color: #00a99d;
-  }
-  #menu-item-2076 a:hover {
-    color: #e31e24;
-  }
-
-  .post-title {
-
-  }
-
-  .post-excerpt {
-
-  }
-
-
-  #paten {
-    padding: 20px;
-    color: white;
-  }
-
-  #copyright {
-    padding: 20px;
-    color: white;
-  }
-  #eo_event_list_widget-2 {
-    color:white;
-    padding:20px;
-  }
-  #eo_event_list_widget-2 ul li {
-    list-style: none;
-    padding-left:20px;
-  }
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
      only screen and (min-resolution:144dpi) {

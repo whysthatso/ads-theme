@@ -1,0 +1,486 @@
+/*
+  Theme Name: HTML5 Blank
+  Theme URI: http://html5blank.com
+  Description: HTML5 Blank WordPress Theme
+  Version: 1.4.3
+  Author: Todd Motto (@toddmotto)
+  Author URI: http://toddmotto.com
+  Tags: Blank, HTML5, CSS3
+
+  License: MIT
+  License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+/* html element 62.5% font-size for REM use */
+html {
+  font-size:62.5%;
+}
+body {
+  font:300 11px/1.4 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#444;
+  background-image:url('../img/bg.jpg');
+  background-repeat:y-repeat;
+  background-position:none center;
+}
+/* clear */
+.clear:before,
+.clear:after {
+  content:' ';
+  display:table;
+}
+
+.clear:after {
+  clear:both;
+}
+.clear {
+  *zoom:1;
+}
+img {
+  max-width:100%;
+  vertical-align:bottom;
+}
+a {
+  color:#444;
+  text-decoration:none;
+}
+a:hover {
+  color:#444;
+}
+a:focus {
+  outline:0;
+}
+a:hover,
+a:active {
+  outline:0;
+}
+input:focus {
+  outline:0;
+  border:1px solid #04A4CC;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+.wrapper {
+  max-width:1280px;
+  width:95%;
+  margin:0 auto;
+  position:relative;
+}
+
+.header {
+
+}
+
+.logo {
+
+}
+.logo-img {
+  width: 20%;
+}
+
+.nav ul li a {
+  color: white;
+}
+
+.sidebar {
+  width:  20%;
+  float:  left;
+  background: #282828 none repeat scroll 0 0;
+}
+.sidebar div ul li a, .sidebar div ul li a:hover {
+  color:white;
+}
+
+#menu-seitenleiste {
+  list-style: none;
+  padding-left: 20px;
+  padding-bottom:20px;
+}
+
+#sidebar-search, #wpcom_social_media_icons_widget-2 ul {
+  padding-left:20px;
+  padding-bottom:20px;
+}
+
+.widget_image {
+  color:white;
+  padding: 20px;
+  background: #282828;
+}
+
+.jetpack-image-container .wp-caption {
+  background: #282828;
+  border:none;
+}
+
+.jetpack-image-container .wp-caption img {
+  width: 50%;
+}
+
+.footer {
+  width:  100%;
+  clear:  both;
+  background: #282828 none repeat scroll 0 0;
+}
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+main {
+  background: #f2f2f2 none repeat scroll 0 0;
+  width: 80%;
+  border: 1px black solid;
+  float: left;
+  padding: 20px;
+}
+
+/*------------------------------------*\
+    CATEGORIES
+\*------------------------------------*/
+
+.sponsor-logo {
+  float:left;
+  width: 34%;
+}
+
+.sponsor-name {
+  float:left;
+  width: 66%;
+}
+
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+  TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+  font-family:'Font-Name';
+  src:url('fonts/font-name.eot');
+  src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+    url('fonts/font-name.woff') format('woff'),
+    url('fonts/font-name.ttf') format('truetype'),
+    url('fonts/font-name.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+  .logo {
+    width: 20%;
+    float:left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .logo-img {
+    width: 100%;
+  }
+  .slogan {
+      color: white;
+      float: left;
+      font-size: 2em;
+      font-style: italic;
+      font-weight: 100;
+      padding-left: 90px;
+      padding-top: 3em;
+      text-align: left;
+      width: 52%;
+  }
+  /* nach suckerfish-vorbild */
+  nav {
+    background: #282828 none repeat scroll 0 0;
+    height: 2.5em;
+    clear: left;
+    font-size: 1.5em;
+    text-align: center;
+    color: white !important;
+  }
+
+  nav, nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-top: 4px;
+  }
+
+  nav a {
+    display: block;
+    width: 10em;
+  }
+
+  nav li {
+    float: left;
+    width: 10em;
+  }
+
+  nav li ul.sub-menu {
+    background-color: #282828;
+    left: -999em;
+    padding: 10px 10px 20px 20px;
+    position: absolute;
+    text-align: left;
+    width: 12em;
+  }
+
+  nav li:hover ul {
+    left: auto;
+  }
+
+  .post-thumbnail {
+    float:left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  #menu-item-2015 a:hover  {
+    color: #e31e24;
+    cursor:default;
+  }
+  #menu-item-2015 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2016 a:hover {
+    color: #0071bc;
+    cursor:default;
+  }
+  #menu-item-2016 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2089 a:hover {
+    color: #f7931e;
+    cursor:default;
+  }
+  #menu-item-2089 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2078 a:hover {
+    color: #9e005d;
+  }
+  #menu-item-2077 a:hover {
+    color: #82cc00;
+  }
+  #menu-item-2088 a:hover {
+    color: #00a99d;
+  }
+  #menu-item-2076 a:hover {
+    color: #e31e24;
+  }
+
+  .post-title {
+
+  }
+
+  .post-excerpt {
+
+  }
+
+
+  #paten {
+    padding: 20px;
+    color: white;
+  }
+
+  #copyright {
+    padding: 20px;
+    color: white;
+  }
+  #eo_event_list_widget-2 {
+    color:white;
+    padding:20px;
+    list-style: none;
+  }
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+     only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+  background:#04A4CC;
+  color:#FFF;
+  text-shadow:none;
+}
+::-webkit-selection {
+  background:#04A4CC;
+  color:#FFF;
+  text-shadow:none;
+}
+::-moz-selection {
+  background:#04A4CC;
+  color:#FFF;
+  text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+  margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+  display:block;
+  margin:5px auto 5px auto;
+}
+.alignright {
+  float:right;
+  margin:5px 0 20px 20px;
+}
+.alignleft {
+  float:left;
+  margin:5px 20px 20px 0;
+}
+a img.alignright {
+  float:right;
+  margin:5px 0 20px 20px;
+}
+a img.alignnone {
+  margin:5px 20px 20px 0;
+}
+a img.alignleft {
+  float:left;
+  margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.wp-caption {
+  background:#FFF;
+  border:1px solid #F0F0F0;
+  max-width:96%;
+  padding:5px 3px 10px;
+  text-align:center;
+}
+.wp-caption.alignnone {
+  margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+  margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+  margin:5px 0 20px 20px;
+}
+.wp-caption img {
+  border:0 none;
+  height:auto;
+  margin:0;
+  max-width:98.5%;
+  padding:0;
+  width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  font-size:11px;
+  line-height:17px;
+  margin:0;
+  padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+  * {
+    background:transparent !important;
+    color:#000 !important;
+    box-shadow:none !important;
+    text-shadow:none !important;
+  }
+  a,
+  a:visited {
+    text-decoration:underline;
+  }
+  a[href]:after {
+    content:" (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content:" (" attr(title) ")";
+  }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content:"";
+  }
+  pre,blockquote {
+    border:1px solid #999;
+    page-break-inside:avoid;
+  }
+  thead {
+    display:table-header-group;
+  }
+  tr,img {
+    page-break-inside:avoid;
+  }
+  img {
+    max-width:100% !important;
+  }
+  @page {
+    margin:0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans:3;
+    widows:3;
+  }
+  h2,
+  h3 {
+    page-break-after:avoid;
+  }
+}

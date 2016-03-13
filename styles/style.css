@@ -116,6 +116,10 @@ input:focus {
   padding:20px;
 }
 
+.widget_image {
+  color:white;
+}
+
 .footer {
   width:  100%;
   clear:  both;

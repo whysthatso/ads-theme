@@ -4,7 +4,7 @@
 
     'use strict';
 
-    ("#paten-liste").fadelist({show: 1, fade: 3000});
+    $("#paten-liste").fadelist({show: 1, fade: 3000});
 
   });
 

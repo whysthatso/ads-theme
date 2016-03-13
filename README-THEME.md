@@ -1,10 +1,74 @@
+Hintergrund
+- wird unter win browsers nicht auf bildschirmgröße gezoomt
+- externe und documentenlinks immer target=blank
+- lightbox für galerien
+- artikle als sticky post
+- boost-project.com https://www.boost-project.com/de/shops?charity_id=721&tag=bl
+
+spielplan
+- nach wp alt layout
+
+formen
+- vorbestellung
+- workshopinteresse
+- newsletter eintrag
+
+virtueller baustein
+x- als unterpunkt unter art der stadt
+x- text als Kategoriebeschreibung
+x- eintrag als post unter Kategorie "aktion virtueller baustein"
+
+kurse & workshops
+- nutze event kalendar
+
+
+beitragsbild
+- wird oben links eingeblendet  
+
+versionsplugin
+- installieren
+
+verein
+- anträge als links mit icon
+- awesomefont zusätzlich
+
+font
+- x von /wordpress
+
+presse
+- kontakt
+- pressemitteilung category dazu
+
+
+gallery
+- fixe galerien
+- liste
+- shortcode
+galerien seite
+- übersich mit bild, category, titel, datum (beitragsbild)  
+
+layout des slogans mehr wie /wordpress
+
+navi mauszeiger kein finger über leere seiten
+
+hintergrund single fix
+
+Navigation
+1. variante mit farbiger schrift auf schwarzem hintergrund
+2. variante mit farbhintergrund
+
+
 Scrollband
-- liste nacheinander einblenden
+x - liste nacheinander einblenden
+
 - events eventuell von fb
 - event calendar
 
 Menu
 - autogenerate from h1 content
+
+- admin seite css wie frontend
+
 
 1. art der stadt
 1.1. verein

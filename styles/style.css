@@ -112,12 +112,23 @@ input:focus {
   padding-left: 20px;
 }
 
-#sidebar-search {
+#sidebar-search, #wpcom_social_media_icons_widget-2 {
   padding:20px;
 }
 
 .widget_image {
   color:white;
+  padding: 20px;
+  background: #282828;
+}
+
+.jetpack-image-container .wp-caption {
+  background: #282828;
+  border:none;
+}
+
+.jetpack-image-container .wp-caption img {
+  width: 50%;
 }
 
 .footer {

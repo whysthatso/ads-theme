@@ -1,8 +1,11 @@
 /*
-  Theme Name: ads based on HTML5 Blank
+  Theme Name: HTML5 Blank
   Theme URI: http://html5blank.com
-  Description: Wordpress Theme für die Seite des Art der Stadt e.V. Gotha
-  Version: 1.0.0
+  Description: HTML5 Blank WordPress Theme
+  Version: 1.4.3
+  Author: Todd Motto (@toddmotto)
+  Author URI: http://toddmotto.com
+  Tags: Blank, HTML5, CSS3
 
   License: MIT
   License URI: http://opensource.org/licenses/mit-license.php
@@ -314,7 +317,11 @@ main {
     padding: 20px;
     color: white;
   }
-
+  #eo_event_list_widget-2 {
+    color:white;
+    padding:20px;
+    list-style: none;
+  }
 }
 @media only screen and (min-width:1024px) {
 

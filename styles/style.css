@@ -107,7 +107,7 @@ input:focus {
   color:white;
 }
 
-#menu-seitenleiste ul {
+#menu-seitenleiste {
   list-style: none;
   padding-left: 20px;
   padding-bottom:20px;

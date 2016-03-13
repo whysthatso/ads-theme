@@ -59,7 +59,7 @@
         <!-- slogan -->
         <div class="slogan">
            wenn die sonne der kultur niedrig steht,<br />
-           werfen selbst zwerge lange schatten... (karl kraus)
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;werfen selbst zwerge lange schatten... (karl kraus)
         </div>
         <!-- /slogan -->
 

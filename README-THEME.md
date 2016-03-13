@@ -14,9 +14,9 @@ formen
 - newsletter eintrag
 
 virtueller baustein
-x- als unterpunkt unter art der stadt
-x- text als Kategoriebeschreibung
-x- eintrag als post unter Kategorie "aktion virtueller baustein"
+- x als unterpunkt unter art der stadt
+- x text als Kategoriebeschreibung
+- x eintrag als post unter Kategorie "aktion virtueller baustein"
 
 kurse & workshops
 - nutze event kalendar
@@ -29,8 +29,8 @@ versionsplugin
 - installieren
 
 verein
-- anträge als links mit icon
-- awesomefont zusätzlich
+- x anträge als links mit icon
+- x awesomefont zusätzlich
 
 font
 - x von /wordpress

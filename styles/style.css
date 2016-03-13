@@ -209,13 +209,15 @@ main {
     width: 100%;
   }
   .slogan {
-    width: 40%;
-    color: white;
-    font-size: 2em;
-    float: right;
-    padding-left: 10px;
-    padding-top: 2.5em;
-    text-align: right;
+      color: white;
+      float: left;
+      font-size: 2em;
+      font-style: italic;
+      font-weight: 100;
+      padding-left: 90px;
+      padding-top: 3em;
+      text-align: left;
+      width: 52%;
   }
   /* nach suckerfish-vorbild */
   nav {

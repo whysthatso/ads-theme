@@ -323,6 +323,7 @@ main {
   }
   #eo_event_list_widget-2 ul li {
     list-style: none;
+    padding-left:20px;
   }
 }
 @media only screen and (min-width:1024px) {

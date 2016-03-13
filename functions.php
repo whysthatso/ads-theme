@@ -69,13 +69,12 @@ add_theme_support('custom-background', array(
 	Functions
 \*------------------------------------*/
 
-
-add_filter( 'breadcrumb_trail_items', 'ads_breadcrumb_trail_items' );
-
-function ads_breadcrumb_trail_items( $items ) {
-  $items =  preg_replace( '/(<a.*?>)/i', '', $items );
-  return $items;
+function neuigkeiten( $query ) {
+    if ( $query->is_home() && $query->is_main_query() ) {
+        $query->set( 'cat', '1' );
+    }
 }
+add_action( 'pre_get_posts', 'neuigkeiten' );
 
 
 // HTML5 Blank navigation
@@ -114,7 +113,7 @@ function html5blank_header_scripts()
     wp_register_script('modernizr', get_template_directory_uri() . '/js/lib/modernizr-2.7.1.min.js', array(), '2.7.1'); // Modernizr
     wp_enqueue_script('modernizr'); // Enqueue it!
 
-    wp_register_script('fadelist', get_template_directory_uri() . '/js/lib/fadelist.jquery.min.js', array(), '0.0.1'); // Custom scripts
+    wp_register_script('fadelist', get_template_directory_uri() . '/js/lib/fadelist.jquery.min.js', array('jquery'), null); // Custom scripts
     wp_enqueue_script('fadelist'); // Enqueue it!
 
     wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
@@ -139,6 +138,13 @@ function html5blank_styles()
 
   wp_register_style('html5blank', get_template_directory_uri() . '/styles/style.css', array(), '1.0', 'all');
   wp_enqueue_style('html5blank'); // Enqueue it!
+}
+
+// Load additional style
+function awesomefont_styles()
+{
+  wp_register_style('awseomefont', '//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css');
+  wp_enqueue_style('awseomefont');
 }
 
 // Register HTML5 Blank Navigation
@@ -368,6 +374,7 @@ add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
 add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
+add_action('wp_enqueu_scripts', 'awesomefont_styles');
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds

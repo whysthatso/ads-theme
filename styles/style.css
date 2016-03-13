@@ -30,7 +30,7 @@ html {
   font-size:62.5%;
 }
 body {
-  font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font:300 11px/1.4 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color:#444;
   background-image:url('../img/bg.jpg');
   background-repeat:y-repeat;
@@ -96,22 +96,25 @@ input:focus {
 }
 
 /* nav */
-nav {
+.nav ul li a {
+  color: white;
 }
 
 /* sidebar */
 .sidebar {
   width:  20%;
-  border: 1px red solid;
   float:  left;
-  background-color: white;
+  background: #282828 none repeat scroll 0 0;
 }
+.sidebar div ul li a, .sidebar div ul li a:hover {
+  color:white;
+}
+
 /* footer */
 .footer {
   width:  100%;
-  border: 1px green solid;
   clear:  both;
-  background-color: white;
+  background: #282828 none repeat scroll 0 0;
 }
 
 /*------------------------------------*\
@@ -119,11 +122,25 @@ nav {
 \*------------------------------------*/
 
 main {
+  background: #f2f2f2 none repeat scroll 0 0;
   width: 80%;
   border: 1px black solid;
   float: left;
-  padding: 10px;
-  background-color: white;
+  padding: 20px;
+}
+
+/*------------------------------------*\
+    CATEGORIES
+\*------------------------------------*/
+
+.sponsor-logo {
+  float:left;
+  width: 34%;
+}
+
+.sponsor-name {
+  float:left;
+  width: 66%;
 }
 
 
@@ -180,12 +197,12 @@ main {
   }
   /* nach suckerfish-vorbild */
   nav {
-    border: 1px blue solid;
-    background-color: white;
+    background: #282828 none repeat scroll 0 0;
     height: 2.5em;
     clear: left;
     font-size: 1.5em;
     text-align: center;
+    color: white !important;
   }
 
   nav, nav ul {
@@ -205,26 +222,78 @@ main {
     width: 10em;
   }
 
-
-  nav li ul {
-    position: absolute;
-    width: 11em;
+  nav li ul.sub-menu {
+    background-color: #282828;
     left: -999em;
-    background-color: white;
-    padding-left: 10px;
-    margin-left: 10px;
+    padding: 10px 10px 20px 20px;
+    position: absolute;
     text-align: left;
+    width: 12em;
   }
 
   nav li:hover ul {
     left: auto;
   }
 
-  .breadcrumbs {
-    border: 1px orange solid;
-    padding: 10px;
-    background-color: white;
+  .post-thumbnail {
+    float:left;
+    padding-right: 20px;
+    padding-bottom: 20px;
   }
+
+  #menu-item-2015 a:hover  {
+    color: #e31e24;
+    cursor:default;
+  }
+  #menu-item-2015 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2016 a:hover {
+    color: #0071bc;
+    cursor:default;
+  }
+  #menu-item-2016 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2089 a:hover {
+    color: #f7931e;
+    cursor:default;
+  }
+  #menu-item-2089 ul li a:hover {
+    cursor:pointer;
+  }
+  #menu-item-2078 a:hover {
+    color: #9e005d;
+  }
+  #menu-item-2077 a:hover {
+    color: #82cc00;
+  }
+  #menu-item-2088 a:hover {
+    color: #00a99d;
+  }
+  #menu-item-2076 a:hover {
+    color: #e31e24;
+  }
+
+  .post-title {
+    
+  }
+
+  .post-excerpt {
+    
+  }
+
+
+  #paten {
+    padding: 20px;
+    color: white;
+  }
+
+  #copyright {
+    padding: 20px;
+    color: white;
+  }
+
 }
 @media only screen and (min-width:1024px) {
 

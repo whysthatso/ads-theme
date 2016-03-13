@@ -76,18 +76,17 @@ input:focus {
     STRUCTURE
 \*------------------------------------*/
 
-/* wrapper */
 .wrapper {
   max-width:1280px;
   width:95%;
   margin:0 auto;
   position:relative;
 }
-/* header */
+
 .header {
 
 }
-/* logo */
+
 .logo {
 
 }
@@ -95,12 +94,10 @@ input:focus {
   width: 20%;
 }
 
-/* nav */
 .nav ul li a {
   color: white;
 }
 
-/* sidebar */
 .sidebar {
   width:  20%;
   float:  left;
@@ -110,7 +107,11 @@ input:focus {
   color:white;
 }
 
-/* footer */
+#menu-seitenleiste li {
+  list-style: none;
+  padding-left: 20px;
+}
+
 .footer {
   width:  100%;
   clear:  both;
@@ -276,11 +277,11 @@ main {
   }
 
   .post-title {
-    
+
   }
 
   .post-excerpt {
-    
+
   }
 
 

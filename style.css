@@ -113,7 +113,9 @@ input:focus {
   padding-bottom:20px;
 }
 
-#sidebar-search, #wpcom_social_media_icons_widget-2 ul {
+#sidebar-search,
+#wpcom_social_media_icons_widget-2 ul,
+#sidebar-widget div ul {
   padding-left:20px;
   padding-bottom:20px;
 }

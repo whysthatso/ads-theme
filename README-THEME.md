@@ -6,7 +6,6 @@ Hintergrund
 - boost-project.com https://www.boost-project.com/de/shops?charity_id=721&tag=bl
 
 spielplan
-- nach wp alt layout
 
 formen
 - vorbestellung

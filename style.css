@@ -319,7 +319,8 @@ main {
     color:white;
     padding:20px;
   }
-  #eo_event_list_widget-2 ul li {
+  #eo_event_list_widget-2 ul li,
+  #eo_event_list_widget-2 ul {
     list-style: none;
     padding-left:0px;
   }
